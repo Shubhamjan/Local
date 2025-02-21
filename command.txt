@@ -16,3 +16,19 @@ if already intialized with other repo then we can change it using below command
 --To change remote repo which connect with local repo
 git remote -v
 
+
+--To check current branch
+git branch
+
+--To change the name of branch
+git branch -M {new name}
+
+--To navigate to other branch
+git checkout {git branch name}
+
+--To create new branch
+git checkout -b {git branch name}
+
+--To delete the branch(for that we have to moved to another branch to delete
+ as we cant delete current branch)
+git branch -d {branch name}
