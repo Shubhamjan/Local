@@ -32,3 +32,9 @@ git checkout -b {git branch name}
 --To delete the branch(for that we have to moved to another branch to delete
  as we cant delete current branch)
 git branch -d {branch name}
+
+
+--To pull changes from git repo into local repo
+(if two branch works one has pushed data but it dont visible in another origin
+then we have pull it to fetch these all changes using below command)
+git pull origin {branch in which we want to put }
