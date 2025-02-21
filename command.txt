@@ -32,3 +32,6 @@ git checkout -b {git branch name}
 --To delete the branch(for that we have to moved to another branch to delete
  as we cant delete current branch)
 git branch -d {branch name}
+
+--To check the difference between two branch
+git diff {name of branch to comapre with current one}
